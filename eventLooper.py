@@ -71,7 +71,8 @@ if __name__ == "__main__":
                 accept = (particle.status == 1) # final state particle
                 accept *= (abs(particle.momentum.eta()) < 2.5) # detector acceptance
                 accept *= (abs(particle.momentum.pt()) > 1) # reconstructable pT
-
+                accept *= (abs(particle.momentum.pt()) > 1) # reconstructable pT
+                accept *= (abs(particle.pid) not in [12, 14, 16]) # not a neutrino
                 if not accept:
                     continue
 
