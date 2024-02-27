@@ -45,27 +45,27 @@ if __name__ == "__main__":
                 # check if there's a Z
                 if abs(particle.pid)==23 and particle.status==62: 
 
-                    plt.plot1D("{}_z_pt".format(sample)   ,";pt;W"  , particle.momentum.pt(), 100, 0, 500)
-                    plt.plot1D("{}_z_eta".format(sample)  ,";eta;W" , particle.momentum.eta(), 100, -10, 10)
-                    plt.plot1D("{}_z_mass".format(sample) ,";mass;W", particle.momentum.m()  , 100, 60,110)
+                    plt.plot1D("{}_z_pt".format(sample)   ,";pt;Zs"  , particle.momentum.pt(), 100, 0, 500)
+                    plt.plot1D("{}_z_eta".format(sample)  ,";eta;Zs" , particle.momentum.eta(), 100, -10, 10)
+                    plt.plot1D("{}_z_mass".format(sample) ,";mass;Zs", particle.momentum.m()  , 100, 60,125)
 
                 # check if there's a W
                 if abs(particle.pid)==24 and particle.status==62: 
 
                     #print(particle.id, particle.pid, particle.status, particle.momentum.pt(), particle.momentum.eta(), particle.momentum.phi())
 
-                    plt.plot1D("{}_w_pt".format(sample)   ,";pt;W"  , particle.momentum.pt(), 100, 0, 500)
-                    plt.plot1D("{}_w_eta".format(sample)  ,";eta;W" , particle.momentum.eta(), 100, -10, 10)
-                    plt.plot1D("{}_w_mass".format(sample) ,";mass;W", particle.momentum.m()  , 100, 60,100)
+                    plt.plot1D("{}_w_pt".format(sample)   ,";pt;Ws"  , particle.momentum.pt(), 100, 0, 500)
+                    plt.plot1D("{}_w_eta".format(sample)  ,";eta;Ws" , particle.momentum.eta(), 100, -10, 10)
+                    plt.plot1D("{}_w_mass".format(sample) ,";mass;Ws", particle.momentum.m()  , 100, 50,110)
 
                 # check if there's a top
                 if abs(particle.pid)==6 and particle.status==62: 
 
                     print(particle.id, particle.pid, particle.status, particle.momentum.pt(), particle.momentum.eta(), particle.momentum.phi())
 
-                    plt.plot1D("{}_t_pt".format(sample)   ,";pt;W"  , particle.momentum.pt(), 100, 0, 500)
-                    plt.plot1D("{}_t_eta".format(sample)  ,";eta;W" , particle.momentum.eta(), 100, -10, 10)
-                    plt.plot1D("{}_t_mass".format(sample) ,";mass;W", particle.momentum.m()  , 100, 140,200)
+                    plt.plot1D("{}_t_pt".format(sample)   ,";pt;tops"  , particle.momentum.pt(), 100, 0, 500)
+                    plt.plot1D("{}_t_eta".format(sample)  ,";eta;tops" , particle.momentum.eta(), 100, -10, 10)
+                    plt.plot1D("{}_t_mass".format(sample) ,";mass;tops", particle.momentum.m()  , 100, 140,200)
 
                 # decide which particles to keep
                 accept = (particle.status == 1) # final state particle
@@ -75,7 +75,8 @@ if __name__ == "__main__":
                 if not accept:
                     continue
 
-                #print(particle) #print(particle.id, particle.pid, particle.status, particle.momentum.pt(), particle.momentum.eta(), particle.momentum.phi(), prod_vector.x, prod_vector.y, accept)
+                #print(particle) 
+                #print(particle.id, particle.pid, particle.status, particle.momentum.pt(), particle.momentum.eta(), particle.momentum.phi(), prod_vector.x, prod_vector.y, accept)
 
                 plt.plot1D("{}_particle_pid".format(sample) ,";pid;stable particles", abs(particle.pid), 250, 0, 250)
                 plt.plot1D("{}_particle_pt".format(sample)  ,";pt;stable particles" , particle.momentum.pt(), 100, 0, 100)
@@ -93,8 +94,8 @@ if __name__ == "__main__":
                     continue
 
                 nleps+=1
-                plt.plot1D("{}_lepton_pt".format(sample)  ,";pt;truth leptons", particle.momentum.pt(), 100, 0, 200)
-                plt.plot1D("{}_lepton_eta".format(sample),";eta;truth leptons", particle.momentum.eta(), 100, -3, 3)
+                plt.plot1D("{}_lepton_pt".format(sample)  ,";pt;truth leptons", particle.momentum.pt(), 50, 0, 200)
+                plt.plot1D("{}_lepton_eta".format(sample),";eta;truth leptons", particle.momentum.eta(), 50, -3, 3)
             
             # jet level plots 
             cluster = fastjet.ClusterSequence(particles, jetdef)
@@ -106,17 +107,17 @@ if __name__ == "__main__":
                 if jet.pt() < 25 or abs(jet.eta()) > 2.5: continue
 
                 #print("pt:", jet.pt() ,"eta:", jet.eta()) 
-                plt.plot1D("{}_jet_pt".format(sample)  ,";pt;truth jets" , jet.pt(), 100, 0, 200)
-                plt.plot1D("{}_jet_eta".format(sample),";eta;truth jets", jet.eta(), 100, -3, 3)
+                plt.plot1D("{}_jet_pt".format(sample)  ,";pt;truth jets" , jet.pt(), 50, 0, 300)
+                plt.plot1D("{}_jet_eta".format(sample),";eta;truth jets", jet.eta(), 50, -3, 3)
 
                 njets += 1
 
-            plt.plot1D("{}_nparticles".format(sample)  ,";n_{particles};events"   , npart, 50, 0, 200)
+            plt.plot1D("{}_nparticles".format(sample)  ,";n_{particles};events"   , npart, 50, 0, 250)
             plt.plot1D("{}_nleptons".format(sample)    ,";n_{leptons};events"     , nleps,  5, -0.5,  4.5)
-            plt.plot1D("{}_njets".format(sample)       ,";n_{jets};events"        , njets, 11, -0.5, 10.5)
+            plt.plot1D("{}_njets".format(sample)       ,";n_{jets};events"        , njets, 13, -0.5, 12.5)
 
 
-            if ievt > 1000 : break # need to understand what to put in track_list between events
+            #if ievt > 1000 : break # need to understand what to put in track_list between events
 
 
         # save histos to file
