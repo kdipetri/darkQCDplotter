@@ -4,9 +4,9 @@ from math import sqrt
 
 # for ROOT plots
 ROOT.gROOT.SetBatch(True)
-ROOT.gROOT.LoadMacro("/Users/karri/Documents/atlasrootstyle/Atlasstyle.C")
-ROOT.gROOT.LoadMacro("/Users/karri/Documents/atlasrootstyle/AtlasUtils.C")
-ROOT.gROOT.LoadMacro("/Users/karri/Documents/atlasrootstyle/AtlasLabels.C")
+ROOT.gROOT.LoadMacro("atlasrootstyle/AtlasStyle.C")
+ROOT.gROOT.LoadMacro("atlasrootstyle/AtlasUtils.C")
+ROOT.gROOT.LoadMacro("atlasrootstyle/AtlasLabels.C")
 ROOT.SetAtlasStyle()
 
 class PlotHelper:

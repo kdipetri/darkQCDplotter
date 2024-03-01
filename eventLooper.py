@@ -77,7 +77,7 @@ if __name__ == "__main__":
                     continue
 
                 #print(particle) 
-                #print(particle.id, particle.pid, particle.status, particle.momentum.pt(), particle.momentum.eta(), particle.momentum.phi(), prod_vector.x, prod_vector.y, accept)
+                print(particle.id, particle.pid, particle.status, particle.momentum.pt(), particle.momentum.eta(), particle.momentum.phi() )
 
                 plt.plot1D("{}_particle_pid".format(sample) ,";pid;stable particles", abs(particle.pid), 250, 0, 250)
                 plt.plot1D("{}_particle_pt".format(sample)  ,";pt;stable particles" , particle.momentum.pt(), 100, 0, 100)
@@ -118,7 +118,7 @@ if __name__ == "__main__":
             plt.plot1D("{}_njets".format(sample)       ,";n_{jets};events"        , njets, 13, -0.5, 12.5)
 
 
-            #if ievt > 1000 : break # need to understand what to put in track_list between events
+            if ievt > 1000 : break # need to understand what to put in track_list between events
 
 
         # save histos to file
