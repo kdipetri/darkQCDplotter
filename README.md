@@ -6,7 +6,12 @@
 
 ## Steps to run on kdplab01
 
-do this every time
+```
+git clone --recurse-submodules git@github.com:kdipetri/darkQCDplotter.git
+cd darkQCDplotter
+```
+
+to setup do this every time
 ```
 singularity run --nv --bind /cvmfs /local/d1/badea/quick-start/my-image.sif
 ```
@@ -18,6 +23,8 @@ pip install fastjet
 
 ```
 make sure to setup input and output directories correctly
+
+then run
 ```
 source run.sh # make histos with eventlooper.py 
 source merge.sh # merge output to single ROOT file
