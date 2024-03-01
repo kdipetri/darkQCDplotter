@@ -18,6 +18,7 @@ if __name__ == "__main__":
     parser.add_argument("-s", "--sampleName", help="Sample name", default="wjets")
     parser.add_argument("-i", "--inFileName", help="Input file name", default="wjets.hepmc")
     parser.add_argument("-o", "--outFileName", help="Output file name", default="wjets.root")
+    parser.add_argument("-n", "--maxEvents", help="maximum events to process", default=-1)
     ops = parser.parse_args()
 
     # setup plotter
@@ -29,6 +30,8 @@ if __name__ == "__main__":
     sample = ops.sampleName
     inFileName  = "inputs/" +sample+".hepmc" # if not ops.inFileName: 
     outFileName = "outputs/"+sample+".root" # if not ops.inFileName: 
+
+    maxevents = ops.maxEvents
 
     # pyhepmc.open can read most HepMC formats using auto-detection
     with pyhepmc.open(inFileName) as f:
@@ -61,7 +64,7 @@ if __name__ == "__main__":
                 # check if there's a top
                 if abs(particle.pid)==6 and particle.status==62: 
 
-                    print(particle.id, particle.pid, particle.status, particle.momentum.pt(), particle.momentum.eta(), particle.momentum.phi())
+                    #print(particle.id, particle.pid, particle.status, particle.momentum.pt(), particle.momentum.eta(), particle.momentum.phi())
 
                     plt.plot1D("{}_t_pt".format(sample)   ,";pt;tops"  , particle.momentum.pt(), 100, 0, 500)
                     plt.plot1D("{}_t_eta".format(sample)  ,";eta;tops" , particle.momentum.eta(), 100, -10, 10)
@@ -77,7 +80,7 @@ if __name__ == "__main__":
                     continue
 
                 #print(particle) 
-                print(particle.id, particle.pid, particle.status, particle.momentum.pt(), particle.momentum.eta(), particle.momentum.phi() )
+                #print(particle.id, particle.pid, particle.status, particle.momentum.pt(), particle.momentum.eta(), particle.momentum.phi() )
 
                 plt.plot1D("{}_particle_pid".format(sample) ,";pid;stable particles", abs(particle.pid), 250, 0, 250)
                 plt.plot1D("{}_particle_pt".format(sample)  ,";pt;stable particles" , particle.momentum.pt(), 100, 0, 100)
@@ -118,7 +121,7 @@ if __name__ == "__main__":
             plt.plot1D("{}_njets".format(sample)       ,";n_{jets};events"        , njets, 13, -0.5, 12.5)
 
 
-            if ievt > 1000 : break # need to understand what to put in track_list between events
+            if maxevents!=-1 and ievt > maxevents : break 
 
 
         # save histos to file
