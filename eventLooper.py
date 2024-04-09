@@ -86,7 +86,7 @@ if __name__ == "__main__":
                 plt.plot1D("{}_particle_pt".format(sample)  ,";pt;stable particles" , particle.momentum.pt(), 100, 0, 100)
                 plt.plot1D("{}_particle_eta".format(sample),";eta;stable particles", particle.momentum.eta(), 100, -3, 3)
 
-                particles.append( fastjet.PseudoJet(particle.momentum.px,particle.momentum.py,particle.momentum.pz,particle.momentum.e ) )
+                particles.append( fastjet.PseudoJet(particle.momentum.px,particle.momentum.py,particle.momentum.pz,particle.momentum.e) )
 
                 npart += 1
 
