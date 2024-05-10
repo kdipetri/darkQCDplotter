@@ -11,10 +11,10 @@ ROOT.SetAtlasStyle()
 
 class PlotHelper:
 
-	def __init__(self):
+	def __init__(self,dir="plots"):
 		self.histos_1d = {}
 		self.histos_2d = {}
-		self.plotdir = "plots";
+		self.plotdir = dir;
 		self.doPdf = False
 		self.doPng = True
 		self.c1 = ROOT.TCanvas("c1","",800,800);

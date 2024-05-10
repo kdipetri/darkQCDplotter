@@ -8,6 +8,8 @@ import pyhepmc
 import numpy as np
 import argparse
 import fastjet
+import awkward as ak
+
 
 from plothelper import *
 
@@ -33,6 +35,7 @@ if __name__ == "__main__":
 
     maxevents = ops.maxEvents
 
+
     # pyhepmc.open can read most HepMC formats using auto-detection
     with pyhepmc.open(inFileName) as f:
 
@@ -43,6 +46,7 @@ if __name__ == "__main__":
             npart = 0
             nleps = 0
             particles = [] # to cluster in jets
+            #particles = ak.Array()
             for particle in event.particles:
                 
                 # check if there's a Z
@@ -85,6 +89,7 @@ if __name__ == "__main__":
                 plt.plot1D("{}_particle_pid".format(sample) ,";pid;stable particles", abs(particle.pid), 250, 0, 250)
                 plt.plot1D("{}_particle_pt".format(sample)  ,";pt;stable particles" , particle.momentum.pt(), 100, 0, 100)
                 plt.plot1D("{}_particle_eta".format(sample),";eta;stable particles", particle.momentum.eta(), 100, -3, 3)
+
 
                 particles.append( fastjet.PseudoJet(particle.momentum.px,particle.momentum.py,particle.momentum.pz,particle.momentum.e) )
 

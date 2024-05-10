@@ -69,7 +69,7 @@ def getHist(sample,dist,f):
 	
 	return hist
 
-def stack1D(samples,dist,f):
+def stack1D(samples,data,dist,f):
 
 	c.cd()
 
@@ -101,7 +101,9 @@ def stack1D(samples,dist,f):
 	hstack.GetYaxis().SetTitle(ytitle)
 	hstack.GetXaxis().SetNdivisions(505)
 	hstack.GetYaxis().SetNdivisions(505)
-	#hstack.SetMinimum(.0001)
+
+	if dist == "nleptons":
+		hstack.SetMinimum(.001)
 
 	
 	leg.Draw()
@@ -109,7 +111,7 @@ def stack1D(samples,dist,f):
 	c.SaveAs("plots/stack_"+data+"_"+dist+".png")
 
 
-def compare1D(samples,dist,f):
+def compare1D(samples,data,dist,f):
 
 	c.cd()
 
@@ -239,29 +241,29 @@ def plotSignalAndBackground(background,signal,dist,ymin=None,ymax=None,xmin=None
 
 
 
-def runPlots(samples,f):
-	compare1D(samples,"njets",f)
-	compare1D(samples,"nleptons",f)
-	compare1D(samples,"nparticles",f)
-	compare1D(samples,"particle_eta",f)
-	compare1D(samples,"particle_pt",f)
-	compare1D(samples,"particle_pid",f)
-	compare1D(samples,"lepton_eta",f)
-	compare1D(samples,"lepton_pt",f)
-	compare1D(samples,"jet_pt",f)
-	compare1D(samples,"jet_eta",f)
+def runPlots(samples,data,f):
+	compare1D(samples,data,"njets",f)
+	compare1D(samples,data,"nleptons",f)
+	compare1D(samples,data,"nparticles",f)
+	compare1D(samples,data,"particle_eta",f)
+	compare1D(samples,data,"particle_pt",f)
+	compare1D(samples,data,"particle_pid",f)
+	compare1D(samples,data,"lepton_eta",f)
+	compare1D(samples,data,"lepton_pt",f)
+	compare1D(samples,data,"jet_pt",f)
+	compare1D(samples,data,"jet_eta",f)
 
 
-	stack1D(samples,"njets",f)
-	stack1D(samples,"nleptons",f)
-	stack1D(samples,"nparticles",f)
-	stack1D(samples,"particle_eta",f)
-	stack1D(samples,"particle_pt",f)
-	stack1D(samples,"particle_pid",f)
-	stack1D(samples,"lepton_eta",f)
-	stack1D(samples,"lepton_pt",f)
-	stack1D(samples,"jet_pt",f)
-	stack1D(samples,"jet_eta",f)
+	stack1D(samples,data,"njets",f)
+	stack1D(samples,data,"nleptons",f)
+	stack1D(samples,data,"nparticles",f)
+	stack1D(samples,data,"particle_eta",f)
+	stack1D(samples,data,"particle_pt",f)
+	stack1D(samples,data,"particle_pid",f)
+	stack1D(samples,data,"lepton_eta",f)
+	stack1D(samples,data,"lepton_pt",f)
+	stack1D(samples,data,"jet_pt",f)
+	stack1D(samples,data,"jet_eta",f)
 
 
 
@@ -280,8 +282,8 @@ plot1D("ttbar","t_mass",fbackgorund)
 plot1D("ttbar","t_pt",fbackgorund)
 plot1D("ttbar","t_eta",fbackgorund)
 
-runPlots(background,fbackgorund)
-runPlots(signal,fsignal)
+runPlots(background,"background",fbackgorund)
+runPlots(signal,"signal",fsignal)
 
 plotSignalAndBackground(background,signal,"njets",ymin=1e-2)
 plotSignalAndBackground(background,signal,"nleptons",ymin=1e-2)
