@@ -47,7 +47,34 @@ if __name__ == "__main__":
             nleps = 0
             particles = [] # to cluster in jets
             #particles = ak.Array()
+            
+            # missing pt comming from neutrinos, dark and all
+            neutrinos_px = 0
+            neutrinos_py = 0
+            dark_px = 0
+            dark_py =0
+            missing_px = 0
+            missing_py = 0
+
             for particle in event.particles:
+
+                # check invisible particles missing pT
+                accept = (particle.status == 1) # final state particle
+                accept *= (abs(particle.momentum.eta()) < 2.5) # detector acceptance
+                accept *= (abs(particle.momentum.pt()) > 1) # reconstructable pT
+                if accept and abs(particle.pid) in [12, 14, 16,4900113,4900111,4900101,4900021]:
+                    # add px and py in the corresponding place
+                    missing_px += particle.momentum.px
+                    missing_py += particle.momentum.py
+                    
+                    if abs(particle.pid) in [12, 14, 16]:
+                        neutrinos_px += particle.momentum.px
+                        neutrinos_py += particle.momentum.py
+                    else:
+                        dark_px += particle.momentum.px
+                        dark_py += particle.momentum.py
+                        
+
                 
                 # check if there's a Z
                 if abs(particle.pid)==23 and particle.status==62: 
@@ -125,6 +152,17 @@ if __name__ == "__main__":
             plt.plot1D("{}_nleptons".format(sample)    ,";n_{leptons};events"     , nleps,  5, -0.5,  4.5)
             plt.plot1D("{}_njets".format(sample)       ,";n_{jets};events"        , njets, 13, -0.5, 12.5)
 
+
+            neutrinos_pt = np.sqrt(neutrinos_px**2 + neutrinos_py**2)
+            dark_pt = np.sqrt(dark_px**2 + dark_py**2)
+            missing_pt = np.sqrt(missing_px**2 + missing_py**2)
+
+            plt.plot1D("{}_missing_pt".format(sample),";missing_pt;events" ,neutrinos_pt, 50, 0, 300)
+
+            # mising pt and dark_pt only for dark samples (higgs_portal)
+            if "higgs" in sample:
+                plt.plot1D("{}_dark_pt".format(sample),";dark_pt;events" ,dark_pt, 50, 0, 300)
+                plt.plot1D("{}_missing_pt".format(sample),";missing_pt;events" ,missing_pt, 50, 0, 300)
 
             if maxevents!=-1 and ievt > maxevents : break 
 

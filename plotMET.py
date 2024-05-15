@@ -159,7 +159,7 @@ def compare1D(samples,data,dist,f):
 	c.SetLogy()
 	c.SaveAs("plots/compare_"+data+"_"+dist+".png")
 
-def plot1D(sample,dist,f,name=None):
+def plot1D(sample,dist,f):
 
 	c.cd()
 
@@ -181,10 +181,8 @@ def plot1D(sample,dist,f,name=None):
 	#hstack.SetMinimum(0.001)
 	leg.Draw()
 	c.SetLogy()
-	if name==None:
-		c.SaveAs("plots/clean_"+dist+".png")
-	else:
-		c.SaveAs("plots/clean_"+name+".png")
+	c.SaveAs("plots/clean_"+dist+".png")
+
 
 
 def plotSignalAndBackground(background,signal,dist,ymin=None,ymax=None,xmin=None,xmax=None):
@@ -250,67 +248,11 @@ def plotSignalAndBackground(background,signal,dist,ymin=None,ymax=None,xmin=None
 
 
 
-def runPlots(samples,data,f):
-	compare1D(samples,data,"njets",f)
-	compare1D(samples,data,"nleptons",f)
-	compare1D(samples,data,"nparticles",f)
-	compare1D(samples,data,"particle_eta",f)
-	compare1D(samples,data,"particle_pt",f)
-	compare1D(samples,data,"particle_pid",f)
-	compare1D(samples,data,"lepton_eta",f)
-	compare1D(samples,data,"lepton_pt",f)
-	compare1D(samples,data,"jet_pt",f)
-	compare1D(samples,data,"jet_eta",f)
-
-
-	stack1D(samples,data,"njets",f)
-	stack1D(samples,data,"nleptons",f)
-	stack1D(samples,data,"nparticles",f)
-	stack1D(samples,data,"particle_eta",f)
-	stack1D(samples,data,"particle_pt",f)
-	stack1D(samples,data,"particle_pid",f)
-	stack1D(samples,data,"lepton_eta",f)
-	stack1D(samples,data,"lepton_pt",f)
-	stack1D(samples,data,"jet_pt",f)
-	stack1D(samples,data,"jet_eta",f)
-
-
-
 
 
 background = ["ttbar","zjets","wjets","qcd"]
 signal = ["higgs_portal_m=5_xio=1_xil=1_ctauMin","higgs_portal_m=10_xio=1_xil=1_ctauMin","higgs_portal_m=15_xio=1_xil=1_ctauMin"]
 
-plot1D("wjets","w_mass",fbackgorund)
-plot1D("wjets","w_pt",fbackgorund)
-plot1D("wjets","w_eta",fbackgorund)
-plot1D("zjets","z_mass",fbackgorund)
-plot1D("zjets","z_pt",fbackgorund)
-plot1D("zjets","z_eta",fbackgorund)
-plot1D("ttbar","t_mass",fbackgorund)
-plot1D("ttbar","t_pt",fbackgorund)
-plot1D("ttbar","t_eta",fbackgorund)
-
 
 # plot missing pt
-stack1D(background,"background","missing_pt",fbackgorund,ymin=1e-2)
-stack1D(signal,"signal","missing_pt",fsignal,ymin=1e-2)
-
-
-runPlots(background,"background",fbackgorund)
-runPlots(signal,"signal",fsignal)
-
-plotSignalAndBackground(background,signal,"njets",ymin=1e-2)
-plotSignalAndBackground(background,signal,"nleptons",ymin=1e-2)
-plotSignalAndBackground(background,signal,"nparticles",ymin=1e-2)
-plotSignalAndBackground(background,signal,"particle_eta",ymin=1e-2)
-plotSignalAndBackground(background,signal,"particle_pt",ymin=1e-2)
-plotSignalAndBackground(background,signal,"particle_pid",ymin=1e-2)
-plotSignalAndBackground(background,signal,"lepton_eta",ymin=1e-2,ymax=1e5)
-plotSignalAndBackground(background,signal,"lepton_pt",ymin=1e-2)
-plotSignalAndBackground(background,signal,"jet_eta",ymin=1e-2,ymax=1e8)
-plotSignalAndBackground(background,signal,"jet_pt",ymin=1e-3,ymax=1e9)
-
-
-# compare missing pt
-plotSignalAndBackground(background,signal,"missing_pt",ymin = 1e-2)
+stack1D(background,"background","neutrinos_pt",fbackgorund,ymin=10)
