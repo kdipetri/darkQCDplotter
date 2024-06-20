@@ -1,0 +1,594 @@
+-------------------------------
+----wh_vectorportal_m-10_xio-1.0_xil-1.0_ctau-30---
+-------------------------------
+nevents: 10000
+-------------------------------
+----wh_vectorportal_m-10_xio-1.0_xil-1.0_ctau-30---
+-------------------------------
+nevents: 10000
+-------------------------------
+----wh_vectorportal_m-10_xio-1.0_xil-1.0_ctau-30---
+-------------------------------
+nevents: 10000
+Events missing pt trigger: 86 -> 0.86[nb]
+Events dilepton trigger: 3387 -> 33.87[nb]
+Events HT trigger: 1 -> 0.01[nb]
+Events single lepton trigger: 7048 -> 70.48[nb]
+-------------------------------
+----wh_vectorportal_m-10_xio-1.0_xil-1.0_ctau-30---
+-------------------------------
+nevents: 10000
+Events missing pt trigger: 86 -> 0.86[nb]
+Events dilepton trigger: 3387 -> 33.87[nb]
+Events HT trigger: 1 -> 0.01[nb]
+Events single lepton trigger: 7048 -> 70.48[nb]
+-------------------------------
+---- Starting a run ---
+-------------------------------
+-------------------------------
+----wh_vectorportal_m-10_xio-1.0_xil-1.0_ctau-30---
+-------------------------------
+nevents: 10000
+Events missing pt trigger: 86 -> 0.86[nb]
+Events dilepton trigger: 3387 -> 33.87[nb]
+Events HT trigger: 1 -> 0.01[nb]
+Events single lepton trigger: 7048 -> 70.48[nb]
+-------------------------------
+----zh_higgsportal_m-2_xio-1.0_xil-1.0_ctau-100---
+-------------------------------
+nevents: 10000
+Events missing pt trigger: 293 -> 2.93[nb]
+Events dilepton trigger: 6547 -> 65.47[nb]
+Events HT trigger: 0 -> 0.0[nb]
+Events single lepton trigger: 8840 -> 88.4[nb]
+-------------------------------
+---- Starting a run ---
+-------------------------------
+-------------------------------
+----wh_vectorportal_m-10_xio-1.0_xil-1.0_ctau-30---
+-------------------------------
+nevents: 10000
+Events missing pt trigger: 86 -> 0.86[nb]
+Events dilepton trigger: 3387 -> 33.87[nb]
+Events HT trigger: 1 -> 0.01[nb]
+Events single lepton trigger: 7048 -> 70.48[nb]
+-------------------------------
+----zjets---
+-------------------------------
+nevents: 9945
+Events missing pt trigger: 0 -> 0.0[nb]
+Events dilepton trigger: 4493 -> 13553.544494720965[nb]
+Events HT trigger: 0 -> 0.0[nb]
+Events single lepton trigger: 6476 -> 19535.444947209653[nb]
+-------------------------------
+---- Starting a run ---
+-------------------------------
+-------------------------------
+----zjets---
+-------------------------------
+nevents: 9945
+Events missing pt trigger: 0 -> 0.0[nb]
+Events dilepton trigger: 4493 -> 13553.544494720965[nb]
+Events HT trigger: 0 -> 0.0[nb]
+Events single lepton trigger: 6476 -> 19535.444947209653[nb]
+-------------------------------
+----wh_vectorportal_m-10_xio-1.0_xil-1.0_ctau-30---
+-------------------------------
+nevents: 10000
+Events missing pt trigger: 86 -> 0.86[nb]
+Events dilepton trigger: 3387 -> 33.87[nb]
+Events HT trigger: 1 -> 0.01[nb]
+Events single lepton trigger: 7048 -> 70.48[nb]
+-------------------------------
+----zh_higgsportal_m-2_xio-1.0_xil-1.0_ctau-100---
+-------------------------------
+nevents: 10000
+Events missing pt trigger: 293 -> 2.93[nb]
+Events dilepton trigger: 6547 -> 65.47[nb]
+Events HT trigger: 0 -> 0.0[nb]
+Events single lepton trigger: 8840 -> 88.4[nb]
+-------------------------------
+---- Starting a run ---
+-------------------------------
+-------------------------------
+---- Starting a run ---
+-------------------------------
+-------------------------------
+----zjets---
+-------------------------------
+nevents: 9945
+Events missing pt trigger: 0 -> 0.0[nb]
+Events dilepton trigger: 4493 -> 13553.544494720965[nb]
+Events HT trigger: 0 -> 0.0[nb]
+Events single lepton trigger: 6476 -> 19535.444947209653[nb]
+-------------------------------
+---- Starting a run ---
+-------------------------------
+-------------------------------
+----zjets---
+-------------------------------
+nevents: 9945
+Events missing pt trigger: 0 -> 0.0[nb]
+Events dilepton trigger: 4493 -> 13553.544494720965[nb]
+Events HT trigger: 0 -> 0.0[nb]
+Events single lepton trigger: 6476 -> 19535.444947209653[nb]
+-------------------------------
+----wh_vectorportal_m-10_xio-1.0_xil-1.0_ctau-30---
+-------------------------------
+nevents: 10000
+Events missing pt trigger: 86 -> 0.86[nb]
+Events dilepton trigger: 3387 -> 33.87[nb]
+Events HT trigger: 1 -> 0.01[nb]
+Events single lepton trigger: 7048 -> 70.48[nb]
+-------------------------------
+----wjets---
+-------------------------------
+nevents: 9938
+Events missing pt trigger: 3 -> 30.187160394445563[nb]
+Events dilepton trigger: 4 -> 40.249547192594086[nb]
+Events HT trigger: 0 -> 0.0[nb]
+Events single lepton trigger: 4198 -> 42241.89977862749[nb]
+-------------------------------
+----wh_higgsportal_m-10_xio-1.0_xil-1.0_ctau-100---
+-------------------------------
+nevents: 10000
+Events missing pt trigger: 182 -> 1.82[nb]
+Events dilepton trigger: 242 -> 2.42[nb]
+Events HT trigger: 0 -> 0.0[nb]
+Events single lepton trigger: 6530 -> 65.3[nb]
+-------------------------------
+----zh_vectorportal_m-1_xio-1.0_xil-1.0_ctau-30---
+-------------------------------
+nevents: 10000
+Events missing pt trigger: 21 -> 0.21[nb]
+Events dilepton trigger: 7615 -> 76.15[nb]
+Events HT trigger: 1 -> 0.01[nb]
+Events single lepton trigger: 8922 -> 89.22[nb]
+-------------------------------
+----wh_higgsportal_m-2_xio-1.0_xil-1.0_ctau-100---
+-------------------------------
+nevents: 10000
+Events missing pt trigger: 137 -> 1.37[nb]
+Events dilepton trigger: 772 -> 7.72[nb]
+Events HT trigger: 0 -> 0.0[nb]
+Events single lepton trigger: 6547 -> 65.47[nb]
+-------------------------------
+----zh_higgsportal_m-2_xio-1.0_xil-1.0_ctau-3---
+-------------------------------
+nevents: 10000
+Events missing pt trigger: 293 -> 2.93[nb]
+Events dilepton trigger: 6547 -> 65.47[nb]
+Events HT trigger: 0 -> 0.0[nb]
+Events single lepton trigger: 8840 -> 88.4[nb]
+-------------------------------
+----zh_higgsportal_m-2_xio-1.0_xil-1.0_ctau-100---
+-------------------------------
+nevents: 10000
+Events missing pt trigger: 293 -> 2.93[nb]
+Events dilepton trigger: 6547 -> 65.47[nb]
+Events HT trigger: 0 -> 0.0[nb]
+Events single lepton trigger: 8840 -> 88.4[nb]
+-------------------------------
+----wh_vectorportal_m-10_xio-1.0_xil-1.0_ctau-10---
+-------------------------------
+nevents: 10000
+Events missing pt trigger: 86 -> 0.86[nb]
+Events dilepton trigger: 3387 -> 33.87[nb]
+Events HT trigger: 1 -> 0.01[nb]
+Events single lepton trigger: 7048 -> 70.48[nb]
+-------------------------------
+----zh_higgsportal_m-1_xio-1.0_xil-1.0_ctau-100---
+-------------------------------
+nevents: 10000
+Events missing pt trigger: 271 -> 2.71[nb]
+Events dilepton trigger: 6350 -> 63.5[nb]
+Events HT trigger: 0 -> 0.0[nb]
+Events single lepton trigger: 8809 -> 88.09[nb]
+-------------------------------
+----all_vectorportal_m-2_xio-1.0_xil-1.0_ctau-100---
+-------------------------------
+nevents: 10000
+Events missing pt trigger: 23 -> 0.23[nb]
+Events dilepton trigger: 1433 -> 14.33[nb]
+Events HT trigger: 0 -> 0.0[nb]
+Events single lepton trigger: 1828 -> 18.28[nb]
+-------------------------------
+----wh_higgsportal_m-2_xio-1.0_xil-1.0_ctau-30---
+-------------------------------
+nevents: 10000
+Events missing pt trigger: 137 -> 1.37[nb]
+Events dilepton trigger: 772 -> 7.72[nb]
+Events HT trigger: 0 -> 0.0[nb]
+Events single lepton trigger: 6547 -> 65.47[nb]
+-------------------------------
+----all_higgsportal_m-2_xio-1.0_xil-1.0_ctau-10---
+-------------------------------
+nevents: 10000
+Events missing pt trigger: 176 -> 1.76[nb]
+Events dilepton trigger: 195 -> 1.95[nb]
+Events HT trigger: 1 -> 0.01[nb]
+Events single lepton trigger: 428 -> 4.28[nb]
+-------------------------------
+----all_vectorportal_m-3_xio-1.0_xil-1.0_ctau-30---
+-------------------------------
+nevents: 10000
+Events missing pt trigger: 26 -> 0.26[nb]
+Events dilepton trigger: 1536 -> 15.36[nb]
+Events HT trigger: 1 -> 0.01[nb]
+Events single lepton trigger: 1910 -> 19.1[nb]
+-------------------------------
+----all_vectorportal_m-1_xio-1.0_xil-1.0_ctau-30---
+-------------------------------
+nevents: 10000
+Events missing pt trigger: 29 -> 0.29[nb]
+Events dilepton trigger: 1600 -> 16.0[nb]
+Events HT trigger: 1 -> 0.01[nb]
+Events single lepton trigger: 1965 -> 19.65[nb]
+-------------------------------
+----all_vectorportal_m-1_xio-1.0_xil-1.0_ctau-3---
+-------------------------------
+nevents: 10000
+Events missing pt trigger: 29 -> 0.29[nb]
+Events dilepton trigger: 1600 -> 16.0[nb]
+Events HT trigger: 1 -> 0.01[nb]
+Events single lepton trigger: 1965 -> 19.65[nb]
+-------------------------------
+----all_vectorportal_m-3_xio-1.0_xil-1.0_ctau-10---
+-------------------------------
+nevents: 10000
+Events missing pt trigger: 26 -> 0.26[nb]
+Events dilepton trigger: 1536 -> 15.36[nb]
+Events HT trigger: 1 -> 0.01[nb]
+Events single lepton trigger: 1910 -> 19.1[nb]
+-------------------------------
+----zh_higgsportal_m-5_xio-1.0_xil-1.0_ctau-3---
+-------------------------------
+nevents: 10000
+Events missing pt trigger: 337 -> 3.37[nb]
+Events dilepton trigger: 6416 -> 64.16[nb]
+Events HT trigger: 1 -> 0.01[nb]
+Events single lepton trigger: 8783 -> 87.83[nb]
+-------------------------------
+----wh_higgsportal_m-5_xio-1.0_xil-1.0_ctau-10---
+-------------------------------
+nevents: 10000
+Events missing pt trigger: 153 -> 1.53[nb]
+Events dilepton trigger: 247 -> 2.47[nb]
+Events HT trigger: 1 -> 0.01[nb]
+Events single lepton trigger: 6470 -> 64.7[nb]
+-------------------------------
+----zh_higgsportal_m-3_xio-1.0_xil-1.0_ctau-100---
+-------------------------------
+nevents: 10000
+Events missing pt trigger: 306 -> 3.06[nb]
+Events dilepton trigger: 6254 -> 62.54[nb]
+Events HT trigger: 1 -> 0.01[nb]
+Events single lepton trigger: 8713 -> 87.13[nb]
+-------------------------------
+----wh_higgsportal_m-1_xio-1.0_xil-1.0_ctau-100---
+-------------------------------
+nevents: 10000
+Events missing pt trigger: 126 -> 1.26[nb]
+Events dilepton trigger: 58 -> 0.58[nb]
+Events HT trigger: 0 -> 0.0[nb]
+Events single lepton trigger: 6515 -> 65.15[nb]
+-------------------------------
+----zh_vectorportal_m-10_xio-1.0_xil-1.0_ctau-30---
+-------------------------------
+nevents: 10000
+Events missing pt trigger: 54 -> 0.54[nb]
+Events dilepton trigger: 7370 -> 73.7[nb]
+Events HT trigger: 0 -> 0.0[nb]
+Events single lepton trigger: 8903 -> 89.03[nb]
+-------------------------------
+----wh_higgsportal_m-10_xio-1.0_xil-1.0_ctau-3---
+-------------------------------
+nevents: 10000
+Events missing pt trigger: 182 -> 1.82[nb]
+Events dilepton trigger: 242 -> 2.42[nb]
+Events HT trigger: 0 -> 0.0[nb]
+Events single lepton trigger: 6530 -> 65.3[nb]
+-------------------------------
+----wh_higgsportal_m-5_xio-1.0_xil-1.0_ctau-30---
+-------------------------------
+nevents: 10000
+Events missing pt trigger: 153 -> 1.53[nb]
+Events dilepton trigger: 247 -> 2.47[nb]
+Events HT trigger: 1 -> 0.01[nb]
+Events single lepton trigger: 6470 -> 64.7[nb]
+-------------------------------
+----zh_higgsportal_m-10_xio-1.0_xil-1.0_ctau-30---
+-------------------------------
+nevents: 10000
+Events missing pt trigger: 349 -> 3.49[nb]
+Events dilepton trigger: 6386 -> 63.86[nb]
+Events HT trigger: 0 -> 0.0[nb]
+Events single lepton trigger: 8825 -> 88.25[nb]
+-------------------------------
+----wh_higgsportal_m-3_xio-1.0_xil-1.0_ctau-100---
+-------------------------------
+nevents: 10000
+Events missing pt trigger: 141 -> 1.41[nb]
+Events dilepton trigger: 101 -> 1.01[nb]
+Events HT trigger: 0 -> 0.0[nb]
+Events single lepton trigger: 6485 -> 64.85[nb]
+-------------------------------
+----zh_vectorportal_m-2_xio-1.0_xil-1.0_ctau-100---
+-------------------------------
+nevents: 10000
+Events missing pt trigger: 32 -> 0.32[nb]
+Events dilepton trigger: 7460 -> 74.6[nb]
+Events HT trigger: 1 -> 0.01[nb]
+Events single lepton trigger: 8870 -> 88.7[nb]
+-------------------------------
+----wh_vectorportal_m-2_xio-1.0_xil-1.0_ctau-3---
+-------------------------------
+nevents: 10000
+Events missing pt trigger: 75 -> 0.75[nb]
+Events dilepton trigger: 3922 -> 39.22[nb]
+Events HT trigger: 1 -> 0.01[nb]
+Events single lepton trigger: 7134 -> 71.34[nb]
+-------------------------------
+----wh_vectorportal_m-10_xio-1.0_xil-1.0_ctau-3---
+-------------------------------
+nevents: 10000
+Events missing pt trigger: 86 -> 0.86[nb]
+Events dilepton trigger: 3387 -> 33.87[nb]
+Events HT trigger: 1 -> 0.01[nb]
+Events single lepton trigger: 7048 -> 70.48[nb]
+-------------------------------
+----zh_vectorportal_m-3_xio-1.0_xil-1.0_ctau-30---
+-------------------------------
+nevents: 10000
+Events missing pt trigger: 29 -> 0.29[nb]
+Events dilepton trigger: 7459 -> 74.59[nb]
+Events HT trigger: 0 -> 0.0[nb]
+Events single lepton trigger: 8845 -> 88.45[nb]
+-------------------------------
+----zh_vectorportal_m-1_xio-1.0_xil-1.0_ctau-100---
+-------------------------------
+nevents: 10000
+Events missing pt trigger: 21 -> 0.21[nb]
+Events dilepton trigger: 7615 -> 76.15[nb]
+Events HT trigger: 1 -> 0.01[nb]
+Events single lepton trigger: 8922 -> 89.22[nb]
+-------------------------------
+----zh_higgsportal_m-10_xio-1.0_xil-1.0_ctau-10---
+-------------------------------
+nevents: 10000
+Events missing pt trigger: 349 -> 3.49[nb]
+Events dilepton trigger: 6386 -> 63.86[nb]
+Events HT trigger: 0 -> 0.0[nb]
+Events single lepton trigger: 8825 -> 88.25[nb]
+-------------------------------
+----wh_vectorportal_m-5_xio-1.0_xil-1.0_ctau-3---
+-------------------------------
+nevents: 10000
+Events missing pt trigger: 68 -> 0.68[nb]
+Events dilepton trigger: 3161 -> 31.61[nb]
+Events HT trigger: 3 -> 0.03[nb]
+Events single lepton trigger: 6884 -> 68.84[nb]
+-------------------------------
+----wh_vectorportal_m-3_xio-1.0_xil-1.0_ctau-30---
+-------------------------------
+nevents: 10000
+Events missing pt trigger: 67 -> 0.67[nb]
+Events dilepton trigger: 4030 -> 40.3[nb]
+Events HT trigger: 0 -> 0.0[nb]
+Events single lepton trigger: 7074 -> 70.74[nb]
+-------------------------------
+----zh_vectorportal_m-5_xio-1.0_xil-1.0_ctau-100---
+-------------------------------
+nevents: 10000
+Events missing pt trigger: 35 -> 0.35[nb]
+Events dilepton trigger: 7181 -> 71.81[nb]
+Events HT trigger: 0 -> 0.0[nb]
+Events single lepton trigger: 8870 -> 88.7[nb]
+-------------------------------
+----all_higgsportal_m-10_xio-1.0_xil-1.0_ctau-10---
+-------------------------------
+nevents: 10000
+Events missing pt trigger: 235 -> 2.35[nb]
+Events dilepton trigger: 29 -> 0.29[nb]
+Events HT trigger: 2 -> 0.02[nb]
+Events single lepton trigger: 177 -> 1.77[nb]
+-------------------------------
+----zh_vectorportal_m-10_xio-1.0_xil-1.0_ctau-100---
+-------------------------------
+nevents: 10000
+Events missing pt trigger: 54 -> 0.54[nb]
+Events dilepton trigger: 7370 -> 73.7[nb]
+Events HT trigger: 0 -> 0.0[nb]
+Events single lepton trigger: 8903 -> 89.03[nb]
+-------------------------------
+----zh_higgsportal_m-2_xio-1.0_xil-1.0_ctau-30---
+-------------------------------
+nevents: 10000
+Events missing pt trigger: 293 -> 2.93[nb]
+Events dilepton trigger: 6547 -> 65.47[nb]
+Events HT trigger: 0 -> 0.0[nb]
+Events single lepton trigger: 8840 -> 88.4[nb]
+-------------------------------
+----zh_vectorportal_m-3_xio-1.0_xil-1.0_ctau-3---
+-------------------------------
+nevents: 10000
+Events missing pt trigger: 29 -> 0.29[nb]
+Events dilepton trigger: 7459 -> 74.59[nb]
+Events HT trigger: 0 -> 0.0[nb]
+Events single lepton trigger: 8845 -> 88.45[nb]
+-------------------------------
+----wh_vectorportal_m-3_xio-1.0_xil-1.0_ctau-100---
+-------------------------------
+nevents: 10000
+Events missing pt trigger: 67 -> 0.67[nb]
+Events dilepton trigger: 4030 -> 40.3[nb]
+Events HT trigger: 0 -> 0.0[nb]
+Events single lepton trigger: 7074 -> 70.74[nb]
+-------------------------------
+----zh_vectorportal_m-1_xio-1.0_xil-1.0_ctau-10---
+-------------------------------
+nevents: 10000
+Events missing pt trigger: 21 -> 0.21[nb]
+Events dilepton trigger: 7615 -> 76.15[nb]
+Events HT trigger: 1 -> 0.01[nb]
+Events single lepton trigger: 8922 -> 89.22[nb]
+-------------------------------
+----all_higgsportal_m-2_xio-1.0_xil-1.0_ctau-30---
+-------------------------------
+nevents: 10000
+Events missing pt trigger: 176 -> 1.76[nb]
+Events dilepton trigger: 195 -> 1.95[nb]
+Events HT trigger: 1 -> 0.01[nb]
+Events single lepton trigger: 428 -> 4.28[nb]
+-------------------------------
+----all_higgsportal_m-1_xio-1.0_xil-1.0_ctau-30---
+-------------------------------
+nevents: 10000
+Events missing pt trigger: 180 -> 1.8[nb]
+Events dilepton trigger: 30 -> 0.3[nb]
+Events HT trigger: 2 -> 0.02[nb]
+Events single lepton trigger: 131 -> 1.31[nb]
+-------------------------------
+----all_higgsportal_m-3_xio-1.0_xil-1.0_ctau-10---
+-------------------------------
+nevents: 10000
+Events missing pt trigger: 207 -> 2.07[nb]
+Events dilepton trigger: 49 -> 0.49[nb]
+Events HT trigger: 2 -> 0.02[nb]
+Events single lepton trigger: 168 -> 1.68[nb]
+-------------------------------
+----wh_vectorportal_m-5_xio-1.0_xil-1.0_ctau-30---
+-------------------------------
+nevents: 10000
+Events missing pt trigger: 68 -> 0.68[nb]
+Events dilepton trigger: 3161 -> 31.61[nb]
+Events HT trigger: 3 -> 0.03[nb]
+Events single lepton trigger: 6884 -> 68.84[nb]
+-------------------------------
+----wh_vectorportal_m-3_xio-1.0_xil-1.0_ctau-10---
+-------------------------------
+nevents: 10000
+Events missing pt trigger: 67 -> 0.67[nb]
+Events dilepton trigger: 4030 -> 40.3[nb]
+Events HT trigger: 0 -> 0.0[nb]
+Events single lepton trigger: 7074 -> 70.74[nb]
+-------------------------------
+----all_higgsportal_m-5_xio-1.0_xil-1.0_ctau-10---
+-------------------------------
+nevents: 10000
+Events missing pt trigger: 222 -> 2.22[nb]
+Events dilepton trigger: 36 -> 0.36[nb]
+Events HT trigger: 1 -> 0.01[nb]
+Events single lepton trigger: 163 -> 1.63[nb]
+-------------------------------
+----all_vectorportal_m-5_xio-1.0_xil-1.0_ctau-100---
+-------------------------------
+nevents: 10000
+Events missing pt trigger: 35 -> 0.35[nb]
+Events dilepton trigger: 1071 -> 10.71[nb]
+Events HT trigger: 0 -> 0.0[nb]
+Events single lepton trigger: 1504 -> 15.04[nb]
+-------------------------------
+----all_higgsportal_m-10_xio-1.0_xil-1.0_ctau-30---
+-------------------------------
+nevents: 10000
+Events missing pt trigger: 235 -> 2.35[nb]
+Events dilepton trigger: 29 -> 0.29[nb]
+Events HT trigger: 2 -> 0.02[nb]
+Events single lepton trigger: 177 -> 1.77[nb]
+-------------------------------
+----all_vectorportal_m-2_xio-1.0_xil-1.0_ctau-3---
+-------------------------------
+nevents: 10000
+Events missing pt trigger: 23 -> 0.23[nb]
+Events dilepton trigger: 1433 -> 14.33[nb]
+Events HT trigger: 0 -> 0.0[nb]
+Events single lepton trigger: 1828 -> 18.28[nb]
+-------------------------------
+----wh_higgsportal_m-1_xio-1.0_xil-1.0_ctau-30---
+-------------------------------
+nevents: 10000
+Events missing pt trigger: 126 -> 1.26[nb]
+Events dilepton trigger: 58 -> 0.58[nb]
+Events HT trigger: 0 -> 0.0[nb]
+Events single lepton trigger: 6515 -> 65.15[nb]
+-------------------------------
+----all_vectorportal_m-10_xio-1.0_xil-1.0_ctau-100---
+-------------------------------
+nevents: 10000
+Events missing pt trigger: 32 -> 0.32[nb]
+Events dilepton trigger: 1201 -> 12.01[nb]
+Events HT trigger: 1 -> 0.01[nb]
+Events single lepton trigger: 1706 -> 17.06[nb]
+-------------------------------
+----all_vectorportal_m-3_xio-1.0_xil-1.0_ctau-3---
+-------------------------------
+nevents: 10000
+Events missing pt trigger: 26 -> 0.26[nb]
+Events dilepton trigger: 1536 -> 15.36[nb]
+Events HT trigger: 1 -> 0.01[nb]
+Events single lepton trigger: 1910 -> 19.1[nb]
+-------------------------------
+----all_vectorportal_m-5_xio-1.0_xil-1.0_ctau-10---
+-------------------------------
+nevents: 10000
+Events missing pt trigger: 35 -> 0.35[nb]
+Events dilepton trigger: 1071 -> 10.71[nb]
+Events HT trigger: 0 -> 0.0[nb]
+Events single lepton trigger: 1504 -> 15.04[nb]
+-------------------------------
+----all_vectorportal_m-2_xio-1.0_xil-1.0_ctau-10---
+-------------------------------
+nevents: 10000
+Events missing pt trigger: 23 -> 0.23[nb]
+Events dilepton trigger: 1433 -> 14.33[nb]
+Events HT trigger: 0 -> 0.0[nb]
+Events single lepton trigger: 1828 -> 18.28[nb]
+-------------------------------
+----qcd_OLD---
+-------------------------------
+nevents: 945
+Events missing pt trigger: 0 -> 0.0[nb]
+Events dilepton trigger: 0 -> 0.0[nb]
+Events HT trigger: 0 -> 0.0[nb]
+Events single lepton trigger: 0 -> 0.0[nb]
+-------------------------------
+----zh_higgsportal_m-2_xio-1.0_xil-1.0_ctau-10---
+-------------------------------
+nevents: 10000
+Events missing pt trigger: 293 -> 2.93[nb]
+Events dilepton trigger: 6547 -> 65.47[nb]
+Events HT trigger: 0 -> 0.0[nb]
+Events single lepton trigger: 8840 -> 88.4[nb]
+-------------------------------
+----wh_vectorportal_m-1_xio-1.0_xil-1.0_ctau-10---
+-------------------------------
+nevents: 10000
+Events missing pt trigger: 73 -> 0.73[nb]
+Events dilepton trigger: 4271 -> 42.71[nb]
+Events HT trigger: 0 -> 0.0[nb]
+Events single lepton trigger: 7073 -> 70.73[nb]
+-------------------------------
+----higgs_portal_m=10_xio=1_xil=1_ctauMin---
+-------------------------------
+nevents: 10000
+Events missing pt trigger: 209 -> 2.09[nb]
+Events dilepton trigger: 10 -> 0.1[nb]
+Events HT trigger: 0 -> 0.0[nb]
+Events single lepton trigger: 61 -> 0.61[nb]
+-------------------------------
+----zh_higgsportal_m-1_xio-1.0_xil-1.0_ctau-10---
+-------------------------------
+nevents: 10000
+Events missing pt trigger: 271 -> 2.71[nb]
+Events dilepton trigger: 6350 -> 63.5[nb]
+Events HT trigger: 0 -> 0.0[nb]
+Events single lepton trigger: 8809 -> 88.09[nb]
+-------------------------------
+----wh_higgsportal_m-2_xio-1.0_xil-1.0_ctau-10---
+-------------------------------
+nevents: 10000
+Events missing pt trigger: 137 -> 1.37[nb]
+Events dilepton trigger: 772 -> 7.72[nb]
+Events HT trigger: 0 -> 0.0[nb]
+Events single lepton trigger: 6547 -> 65.47[nb]
